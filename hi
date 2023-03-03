@@ -1,0 +1,15 @@
+# create a new file called "index.html"
+with open("index.html", "w") as file:
+    # write the HTML code for the webpage
+    file.write("<!DOCTYPE html>\n")
+    file.write("<html>\n")
+    file.write("<head>\n")
+    file.write("<title>My Webpage with Images</title>\n")
+    file.write("</head>\n")
+    file.write("<body>\n")
+    file.write("<h1>Welcome to my webpage with images!</h1>\n")
+    file.write("<p>Here are some images:</p>\n")
+    file.write("<img src='world.png' alt='Image 1'>\n")
+    file.write("<img src='image2.jpg' alt='Image 2'>\n")
+    file.write("</body>\n")
+    file.write("</html>\n")
